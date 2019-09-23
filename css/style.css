@@ -2,6 +2,7 @@
 body{
     font-family: 'Fredericka the Great', cursive;
 }
+
 .home {
     width: 100%;
     min-height: 400px;
@@ -23,6 +24,17 @@ h1 {
 }
 span {
     font-size: 1em;
+}
+
+section div:first-child {
+    width:100%; 
+    padding-left: 40px;
+}
+
+.home div div:first-child{
+    width:60%; 
+    display:inline-block; 
+    vertical-align: top
 }
 
 .experience {
@@ -51,15 +63,6 @@ span {
     padding-left: 20px;
 }
 
-.home div {
-    display: inline-block;
-    max-width: 60%;
-    vertical-align: top;
-    text-align: right;
-    padding: 10px;
-    /* width: 100%; */
-}
-
 .experience img {
     width: 200;
     height: 150;
@@ -67,4 +70,7 @@ span {
     padding: 10px;
 }
 
-
+.contact img {
+    width:32px;
+    height: 32px;
+}
