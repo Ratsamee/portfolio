@@ -5,28 +5,29 @@ body{
 
 .home {
     width: 100%;
-    min-height: 400px;
+    min-height: 650px;
     align-items: center;
     padding:  100px 20px 20px 10px;
-    /* background-image: url("../images/bgsea.jpg"); */
-    /* background-color: #cedce7; */
-    /* background-size: cover; */
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
-    background: #d2dfed; /* Old browsers */
-    background: -moz-linear-gradient(45deg,  #d2dfed 0%, #c8d7eb 26%, #bed0ea 51%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: #f7fbfc; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #f7fbfc 0%, #d9edf2 40%, #add9e4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 h1 {
-    font-size: 2em;
+    font-size: 4em;
     font-weight: bolder;
 }
-span {
+p {
     font-size: 1em;
 }
 
-section div:first-child {
+span{
+    font-size: 14px;
+}
+
+.main-div {
     width:100%; 
     padding-left: 40px;
 }
@@ -39,7 +40,7 @@ section div:first-child {
 
 .experience {
     width: 100%;
-    min-height: 500px;
+    min-height: 600px;
     text-align: center;
     font-size: 4em;
     font-weight: bold;
@@ -68,6 +69,15 @@ section div:first-child {
     height: 150;
     border-radius: 20%;
     padding: 10px;
+}
+
+.each-card {
+    display:inline-block;
+}
+.card-shadow {
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .contact img {
