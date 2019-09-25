@@ -3,24 +3,20 @@ body{
     font-family: 'Fredericka the Great', cursive;
 }
 
-.home {
+section {
     width: 100%;
-    min-height: 650px;
+    min-height: 100%;
+    height: auto;
     align-items: center;
-    padding:  100px 20px 20px 10px;
-    background: #f7fbfc; /* Old browsers */
-    background: -moz-linear-gradient(45deg,  #f7fbfc 0%, #d9edf2 40%, #add9e4 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+    padding:  80px 20px 10px 10px;
 }
+
 h1 {
     font-size: 4em;
     font-weight: bolder;
 }
 p {
-    font-size: 1em;
+    font-size: 14px;
 }
 
 span{
@@ -30,57 +26,48 @@ span{
 .main-div {
     width:100%; 
     padding-left: 40px;
+    align-items: center;
 }
 
-.home div div:first-child{
+#home {
+    background-image: url(../images/ocean.jpg);
+    background-size: cover;
+}
+
+#home div div:first-child{
     width:60%; 
     display:inline-block; 
     vertical-align: top
 }
 
-.experience {
-    width: 100%;
-    min-height: 600px;
-    text-align: center;
-    font-size: 4em;
-    font-weight: bold;
-}
-
-.contact {
-    width: 100%;
-    max-height: 200px;
-    padding: 30px;
-    background: #cedce7; /* Old browsers */
-    background: -moz-linear-gradient(top,  #cedce7 0%, #596a72 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #cedce7 0%,#596a72 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
-}
-
 .img-profile {
     width: 300;
     height: 300;
-    border-radius: 20%;
-    padding-left: 20px;
+    /* border-radius: 20%;
+    padding-left: 20px; */
 }
 
-.experience img {
+#experience img {
     width: 200;
     height: 150;
     border-radius: 20%;
     padding: 10px;
 }
 
-.each-card {
-    display:inline-block;
-}
-.card-shadow {
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+#experience h2{
+    text-align: center;
 }
 
-.contact img {
-    width:32px;
-    height: 32px;
+.div-experience {
+    padding: 15px;
+}
+
+.experience-cards {
+    padding: 10px;
+}
+
+.contact-img {
+    width:48px;
+    height: 48px;
+    padding: 5px;
 }
