@@ -20,7 +20,7 @@
             </li>
         </ul>
         <a class="navbar-brand" href="mailto:ratsamee.kajornchaiyakul@gmail.com" target="_blank">
-            <img class="contact-img" src="./images/mail.png" alt="email">
+            <img class="contact-img" src="./images/mail.png" alt="email" title="ratsamee.kajornchaiyakul@gmail.com">
         </a>
         <a class="navbar-brand" href="https://www.linkedin.com/in/ratsameek/" target="_blank"> 
             <img class="contact-img" src="./images/linkin.png" alt="linkin">
@@ -34,7 +34,7 @@
     <div>
         <section id="home">
             <div class="main-div">
-                <div>
+                <div class="w-75 d-inline-block pr-4">
                     <h2>Hello, I am Ratsamee Kajornchaiyakul</h2>
                     <br>
                     <br>
@@ -42,70 +42,109 @@
                         Look for productivity, Look at ... Me!!!
                     </h1>
                 </div>
-                <!-- <img class="img-profile" src="./images/my_pic.jpg" alt="ratsamee" /> -->
                 <img src="./images/my_pic.jpg" class="rounded shadow-lg p-3 img-profile float-right" alt="ratsamee">
             </div>
         </section>
         <section id="experience">
             <div class="main-div">
-                <div class="div-experience">
-                    <h2>Experience</h2>
-                    <div class="d-flex justify-content-center">
-                        <div class="pr-3">
-                            <div class="card shadow-sm" style="max-width: 18rem;">
-                                <div class="card-header"><span>Tic Tac Toe</span></div>
-                                <div class="card-body">
-                                    <img src="./images//tictactoe.png" class="card-img-top" alt="tictactoe">
-                                </div>
-                                <a href="https://ratsamee.github.io/tictactoe/" target="_blank" class="btn btn-primary">Play!!!</a>
+                <h2 class="text-center">Experience</h2>
+                <div class="row featurette pt-5 pb-3">
+                    <div class="col-md-9">
+                        <h4 class="featurette-heading">Tic Tac Toe</h4>
+                        <p class="lead">Tic Tac Toe was a good project to learn about javascript and logic programming. Basically, I got the knowledage about DOM, JavaScript and the way to think how to create "Play with AI".
+                        </p>
+                        <p>
+                            <img src="./images/javascript.png" class="image-icon shadow-sm" alt="js" title="JS"/>
+                            <img src="./images/html.png" class="image-icon shadow-sm" alt="html" title="HTML"/>
+                            <img src="./images/css_icon.png" class="image-icon shadow-sm" alt="css" title="CSS"/>
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <img src="./images/tictactoe.png" class="image-thumbnail shadow rounded" alt="tictactoe">
+                            <div class="pt-3">
+                                <a href="https://ratsamee.github.io/tictactoe/" target="_blank" class="btn btn-primary button-link">Play</a>
                             </div>
                         </div>
-                        <div class="pr-3">
-                            <div class="card shadow-sm" style="max-width: 18rem;">
-                                <div class="card-header"><span>Booking beauty online</span></div>
-                                <div class="card-body">
-                                    <img src="./images/group_project.png" class="card-img-top" alt="beauk">
-                                </div>
-                                <a href="https://beauk.herokuapp.com/" target="_blank" class="btn btn-primary">Book Now!!!</a>
-                            </div>
-                        </div>
-                        <div class="pr-3">
-                            <div class="card shadow-sm" style="max-width: 18rem;">
-                                <div class="card-header"><span>Bookstore</span></div>
-                                <div class="card-body">
-                                    <img src="./images/bookstore.png" class="card-img-top" alt="bookstore">
-                                </div>
-                                <a href="https://ratsamee.github.io/bookstore/" target="_blank" class="btn btn-primary">Check out!!!</a>
-                            </div>
-                        </div>
-                        <div class="pr-3">
-                            <div class="card shadow-sm" style="max-width: 18rem;">
-                                <div class="card-header"><span>Ziios</span></div>
-                                <div class="card-body">
-                                    <img src="./images/ziios.png" class="card-img-top" alt="ziios">
-                                </div>
-                                <a href="https://www.ziios.com/" target="_blank" class="btn btn-primary">See more ...</a>
+                        
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+                <div class="row featurette pt-3 pb-3">
+                    <div class="col-md-9 order-md-2">
+                        <h4 class="featurette-heading">Oh yeah, it’was that good.</h4>
+                        <p class="lead">Beauk is a group project. We were girls group work together and got a lot of fun. It's so femine. 
+                        </p>
+                        <p>
+                            <img src="./images/react.png" class="image-icon shadow-sm" alt="react" title="React" />
+                            <img src="./images/Bootstrap.png" class="image-icon shadow-sm" alt="bootstrap" title="bootstrap"/>
+                            <img src="./images/ruby.png" class="image-icon shadow-sm" alt="ruby" title="Ruby"/>
+                            <img src="./images/javascript.png" class="image-icon shadow-sm" alt="js" title="JS"/>
+                            <img src="./images/html.png" class="image-icon shadow-sm" alt="html" title="HTML"/>
+                            <img src="./images/css_icon.png" class="image-icon shadow-sm" alt="css" title="CSS"/>
+                        </p>
+                    </div>
+                    <div class="col-md-3 order-md-1">
+                        <div>
+                            <img src="./images/group_project.png" class="image-thumbnail shadow rounded" alt="beauk">
+                            <div class="pt-3">
+                                <a href="https://beauk.herokuapp.com/" target="_blank" class="btn btn-primary button-link">Book Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="div-experience">
-                    <h2>Skills</h2>
-                    <div class="text-center">
-                        <img src="./images/react.png" class="img-thumbnail shadow-sm" alt="react" title="React" />
-                        <img src="./images/ruby.png" class="img-thumbnail shadow-sm" alt="ruby" title="Ruby"/>
-                        <img src="./images/javascript.png" class="img-thumbnail shadow-sm" alt="js" title="JS"/>
-                        <img src="./images/html.png" class="img-thumbnail shadow-sm" alt="html" title="HTML"/>
-                        <img src="./images/css_icon.png" class="img-thumbnail shadow-sm" alt="css" title="CSS"/>
+                <hr class="featurette-divider">
+
+                <div class="row featurette  pt-3 pb-3">
+                    <div class="col-md-9">
+                    <h4 class="featurette-heading">I can do it!!!</h4>
+                    <p class="lead">Because I love reading books so I prefer buy e-book. It was reason why I implement this application. It was excited about credit card. Acually, I haven't did it however I've already screen of credit card. </p>
+                    <p>
+                        <img src="./images/react.png" class="image-icon shadow-sm" alt="react" title="React" />
+                        <img src="./images/Bootstrap.png" class="image-icon shadow-sm" alt="bootstrap" title="bootstrap"/>
+                        <img src="./images/ruby.png" class="image-icon shadow-sm" alt="ruby" title="Ruby"/>
+                        <img src="./images/javascript.png" class="image-icon shadow-sm" alt="js" title="JS"/>
+                        <img src="./images/html.png" class="image-icon shadow-sm" alt="html" title="HTML"/>
+                        <img src="./images/css_icon.png" class="image-icon shadow-sm" alt="css" title="CSS"/>
+                    </p>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <img src="./images/bookstore.png" class="image-thumbnail shadow rounded" alt="bookstore">
+                            <div class="pt-3">
+                                <a href="https://ratsamee.github.io/bookstore/" target="_blank" class="btn btn-primary button-link">Check out!!!</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
+                <hr class="featurette-divider  pt-3 pb-3">
+                <div class="row featurette">
+                    <div class="col-md-9 order-md-2">
+                    <h4 class="featurette-heading">Wowww.. Ziios</h4>
+                    <p class="lead">I worked at Ziios (Thailand) for 6 years. I have gained a lot of experiences and technologies. I was back-end developer then I got into front-end about 1 year before I have come to Australia.</p>
+                    <p>
+                        <img src="./images/c-logo.png" class="image-icon shadow-sm" alt="C#" title="C#"/>
+                        <img src="./images/asp-net.png" class="image-icon shadow-sm" alt="asp.net" title="asp.net"/>
+                        <img src="./images/Dot-net.jpg" class="image-icon shadow-sm" alt=".net framework" title=".net framework"/>
+                        <img src="./images/ms-sql.png" class="image-icon shadow-sm" alt="ms-sql" title="ms-sql"/>
+                        <img src="./images/typescript.png" class="image-icon shadow-sm" alt="typescript" title="typescript"/>
+                        <img src="./images/tfs.jpg" class="image-icon shadow-sm" alt="TFS" title="TFS"/>
+                        <img src="./images/azure.png" class="image-icon shadow-sm" alt="Azure" title="Azure"/>
+                    </p>
+                    </div>
+                    <div class="col-md-3 order-md-1">
+                        <img src="./images/ziios.png" class="image-thumbnail shadow rounded" alt="ziios">
+                        <div class="pt-3">
+                            <a href="https://www.ziios.com/" target="_blank" class="btn btn-primary button-link">See more ...</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="aboutme">
             <div class="main-div">
-                <div class="div-experience">
-                    <h2>About Me</h2>
+                <div>
+                    <h2 class="text-center">About Me</h2>
 
                 </div>
             </div>

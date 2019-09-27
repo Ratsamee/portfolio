@@ -25,7 +25,8 @@ span{
 
 .main-div {
     width:100%; 
-    padding-left: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
     align-items: center;
 }
 
@@ -34,36 +35,30 @@ span{
     background-size: cover;
 }
 
-#home div div:first-child{
-    width:60%; 
-    display:inline-block; 
-    vertical-align: top
+#aboutme {
+    background: rgb(197,222,234); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(221, 238, 246, 0) 0%, rgba(215, 235, 245, 0.2) 10%, rgba(197,222,234,0.3) 20%,  rgba(197,222,234,1) 41%, rgba(138,187,215,0.5) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(221, 238, 246, 0) 0%,rgba(215, 235, 245, 0.2) 10%, rgba(197,222,234,0.3) 20%, rgba(197,222,234,1) 41%,rgba(138,187,215,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(221, 238, 246, 0) 0%,rgba(215, 235, 245, 0.2) 10%, rgba(215, 235, 245, 0.3) 20%,  rgba(197,222,234,0.5) 41%,rgba(138,187,215,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
 }
-
 .img-profile {
     width: 300;
     height: 300;
-    /* border-radius: 20%;
-    padding-left: 20px; */
 }
 
-#experience img {
-    width: 200;
-    height: 150;
-    border-radius: 20%;
-    padding: 10px;
+.image-thumbnail{
+    width: 200px;
+    height: 150px;
 }
 
-#experience h2{
-    text-align: center;
+.button-link {
+    width: 200px;
 }
 
-.div-experience {
-    padding: 15px;
-}
-
-.experience-cards {
-    padding: 10px;
+.image-icon{
+    width: 48px;
+    height: 48px;
 }
 
 .contact-img {
